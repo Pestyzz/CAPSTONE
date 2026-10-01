@@ -1,0 +1,300 @@
+{
+  "version": "3.0.0",
+  "darkMode": true,
+  "gridEnabling": false,
+  "currentViewName": null,
+  "defaultView": {
+    "detailLevel": "All",
+    "relationshipMode": "All",
+    "tablePositions": [
+      {
+        "name": "CUIDADOR",
+        "schemaName": "public",
+        "x": 1290.220605458974,
+        "y": 1.5942011748397817
+      },
+      {
+        "name": "PERSONA_MAYOR",
+        "schemaName": "public",
+        "x": 464.6166342944118,
+        "y": -130.49711972703764
+      },
+      {
+        "name": "ASIGNACION_CUIDADO",
+        "schemaName": "public",
+        "x": 169.55217106308007,
+        "y": 337.7525790799225
+      },
+      {
+        "name": "MEDICAMENTO",
+        "schemaName": "public",
+        "x": -147.72755809330792,
+        "y": 36.378916809220755
+      },
+      {
+        "name": "TRATAMIENTO",
+        "schemaName": "public",
+        "x": -158.33573352172215,
+        "y": 238.44379162062475
+      },
+      {
+        "name": "REGISTRO_MEDICAMENTO",
+        "schemaName": "public",
+        "x": 266.63784528221447,
+        "y": 848.0192868487927
+      },
+      {
+        "name": "ACTIVIDAD_CUIDADO",
+        "schemaName": "public",
+        "x": 809.1963771523776,
+        "y": 228.63533177992701
+      },
+      {
+        "name": "CITA_MEDICA",
+        "schemaName": "public",
+        "x": 482.38135936281594,
+        "y": 238.44379162062478
+      },
+      {
+        "name": "EVALUACION_SOBRECARGA",
+        "schemaName": "public",
+        "x": 1483.3780852667342,
+        "y": 337.81731675067044
+      },
+      {
+        "name": "ALERTA",
+        "schemaName": "public",
+        "x": 1138.8388558378158,
+        "y": 266.9786735793522
+      }
+    ],
+    "tableGroupCollapseStates": [],
+    "stickyNoteLayouts": [],
+    "referencePaths": [
+      {
+        "firstFieldNames": [
+          "cuidador_id"
+        ],
+        "firstTableName": "ASIGNACION_CUIDADO",
+        "firstSchemaName": "public",
+        "firstRelation": "*",
+        "secondFieldNames": [
+          "cuidador_id"
+        ],
+        "secondTableName": "CUIDADOR",
+        "secondSchemaName": "public",
+        "secondRelation": "1",
+        "firstEndpointSide": "left",
+        "checkPoints": [
+          {
+            "x": 149.55217106308007,
+            "y": 618.0366555040849
+          },
+          {
+            "x": 1078.856336474136,
+            "y": 618.0366555040849
+          },
+          {
+            "x": 1078.856336474136,
+            "y": 49.59420117483978
+          }
+        ]
+      },
+      {
+        "firstFieldNames": [
+          "persona_mayor_id"
+        ],
+        "firstTableName": "ASIGNACION_CUIDADO",
+        "firstSchemaName": "public",
+        "firstRelation": "*",
+        "secondFieldNames": [
+          "persona_mayor_id"
+        ],
+        "secondTableName": "PERSONA_MAYOR",
+        "secondSchemaName": "public",
+        "secondRelation": "1",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "persona_mayor_id"
+        ],
+        "firstTableName": "TRATAMIENTO",
+        "firstSchemaName": "public",
+        "firstRelation": "*",
+        "secondFieldNames": [
+          "persona_mayor_id"
+        ],
+        "secondTableName": "PERSONA_MAYOR",
+        "secondSchemaName": "public",
+        "secondRelation": "1",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "medicamento_id"
+        ],
+        "firstTableName": "TRATAMIENTO",
+        "firstSchemaName": "public",
+        "firstRelation": "*",
+        "secondFieldNames": [
+          "medicamento_id"
+        ],
+        "secondTableName": "MEDICAMENTO",
+        "secondSchemaName": "public",
+        "secondRelation": "1",
+        "firstEndpointSide": "left",
+        "secondEndpointSide": "left",
+        "checkPoints": [
+          {
+            "x": -267.58600378780295,
+            "y": 350.4437916206248
+          },
+          {
+            "x": -267.58600378780295,
+            "y": 84.37891680922075
+          }
+        ]
+      },
+      {
+        "firstFieldNames": [
+          "tratamiento_id"
+        ],
+        "firstTableName": "REGISTRO_MEDICAMENTO",
+        "firstSchemaName": "public",
+        "firstRelation": "*",
+        "secondFieldNames": [
+          "tratamiento_id"
+        ],
+        "secondTableName": "TRATAMIENTO",
+        "secondSchemaName": "public",
+        "secondRelation": "1",
+        "checkPoints": [
+          {
+            "x": 110.29860345535448,
+            "y": 797.6085609786694
+          },
+          {
+            "x": 110.29860345535448,
+            "y": 286.4437916206248
+          }
+        ]
+      },
+      {
+        "firstFieldNames": [
+          "cuidador_id"
+        ],
+        "firstTableName": "REGISTRO_MEDICAMENTO",
+        "firstSchemaName": "public",
+        "firstRelation": "*",
+        "secondFieldNames": [
+          "cuidador_id"
+        ],
+        "secondTableName": "CUIDADOR",
+        "secondSchemaName": "public",
+        "secondRelation": "1",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "persona_mayor_id"
+        ],
+        "firstTableName": "ACTIVIDAD_CUIDADO",
+        "firstSchemaName": "public",
+        "firstRelation": "*",
+        "secondFieldNames": [
+          "persona_mayor_id"
+        ],
+        "secondTableName": "PERSONA_MAYOR",
+        "secondSchemaName": "public",
+        "secondRelation": "1",
+        "checkPoints": [
+          {
+            "x": 719.604229543006,
+            "y": 497.68450247841713
+          },
+          {
+            "x": 719.604229543006,
+            "y": 88.92847596859758
+          }
+        ]
+      },
+      {
+        "firstFieldNames": [
+          "cuidador_id"
+        ],
+        "firstTableName": "ACTIVIDAD_CUIDADO",
+        "firstSchemaName": "public",
+        "firstRelation": "*",
+        "secondFieldNames": [
+          "cuidador_id"
+        ],
+        "secondTableName": "CUIDADOR",
+        "secondSchemaName": "public",
+        "secondRelation": "1",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "persona_mayor_id"
+        ],
+        "firstTableName": "CITA_MEDICA",
+        "firstSchemaName": "public",
+        "firstRelation": "*",
+        "secondFieldNames": [
+          "persona_mayor_id"
+        ],
+        "secondTableName": "PERSONA_MAYOR",
+        "secondSchemaName": "public",
+        "secondRelation": "1",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "cuidador_id"
+        ],
+        "firstTableName": "EVALUACION_SOBRECARGA",
+        "firstSchemaName": "public",
+        "firstRelation": "*",
+        "secondFieldNames": [
+          "cuidador_id"
+        ],
+        "secondTableName": "CUIDADOR",
+        "secondSchemaName": "public",
+        "secondRelation": "1",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "persona_mayor_id"
+        ],
+        "firstTableName": "ALERTA",
+        "firstSchemaName": "public",
+        "firstRelation": "*",
+        "secondFieldNames": [
+          "persona_mayor_id"
+        ],
+        "secondTableName": "PERSONA_MAYOR",
+        "secondSchemaName": "public",
+        "secondRelation": "1",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "cuidador_id"
+        ],
+        "firstTableName": "ALERTA",
+        "firstSchemaName": "public",
+        "firstRelation": "*",
+        "secondFieldNames": [
+          "cuidador_id"
+        ],
+        "secondTableName": "CUIDADOR",
+        "secondSchemaName": "public",
+        "secondRelation": "1",
+        "checkPoints": []
+      }
+    ]
+  },
+  "views": {}
+}
